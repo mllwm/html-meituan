@@ -41,13 +41,14 @@
     width: 100%;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .type-n{
     margin-left: 4%;
     width: 20%;
     font-size: 14px;
+    text-align: center;
 }
 .type-N1{
     margin-top: 3%;
