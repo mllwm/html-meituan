@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:微软雅黑;
+    list-style: none;
+}
+.border{
+    border: 1px solid red;
+}
+.xy-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

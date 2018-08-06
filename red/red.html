@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微信红包</title>
+    <style>
+        .red{
+            position: fixed;
+            display: flex;
+            flex-flow: row ;
+            top: 20%;
+            left: 40%;
+            width: 17%;
+            height: 300px;
+            background: red;
+            overflow: hidden;
+
+
+        }
+        .envelope{
+            width: 250px;
+            height: 120px;
+            background: crimson;
+            border-radius: 0% 0% 120px 120px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*border: 1px solid black;*/
+
+        }
+        .chai{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: orange;
+            position: fixed;
+            display: flex;
+            transform: translate(0% ,-40%);
+            z-index: 1;
+        }
+        .content-center{
+            position: fixed;
+            display:flex ;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .content-top{
+
+            position: absolute;
+            top: 0px;
+        }
+
+        .img{
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            background-position: center;
+            /*border: 1px solid black;*/
+            /*border: 1px solid blue;*/
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .img-head{
+            width: 30px;
+            height: 30px;
+            position: fixed;
+            display: flex;
+            flex-flow: row;
+            background-size: cover;
+        }
+        .font{
+            font-size: 10px;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+        }
+        .money{
+            width: 20px;
+            height: 20px;
+            position: fixed;
+            top: 65%;
+            left: 48%;
+            display: flex;
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 20px orange;
+            overflow: hidden;
+            /*border: 1px solid black;*/
+            /*z-index: 3;*/
+        }
+    </style>
+</head>
+<body>
+<!--<div class="envelope content-top"></div>-->
+<div class="red content-center">
+    <div class="envelope content-top " >
+        <div class="img"  ><div style="background-image: url(../img/head1.jpg)" class="img-head"><p style="margin-top: 25px;">xxx</p></div></div>
+        <div class="font">给你发了个红包</div>
+        <div style="margin-top: 50px">恭喜发财，大吉大利</div>
+    </div>
+    <div class="chai content-center">開</div>
+
+    <div class="money" style="background-image: url(../img/铜钱.svg)"></div>
+</div>
+</body>
+</html>

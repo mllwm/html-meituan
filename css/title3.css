@@ -1,0 +1,35 @@
+#title3{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(14,157,149,0.88);
+    display: flex;
+    flex-flow: row ;
+    justify-content: flex-start;
+    align-items: center;
+    /*border-bottom: 1px solid #8a8a8a;*/
+}
+#title3-left{
+    margin-left: 2%;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#title3-right{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.title3-right-left{
+    margin-right: 2%;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

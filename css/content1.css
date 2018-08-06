@@ -1,0 +1,176 @@
+#content1{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: scroll;
+    background-color: whitesmoke;
+    /*overflow-x:hidden ;*/
+}
+.img{
+    height: 28%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+.img-photo{
+    width: 65%;
+    height: 90%;
+    margin: 0px 10px 0px 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.type{
+    height: 22%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.type-N{
+    margin-top: 3%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.type-n{
+    margin-left: 4%;
+    width: 20%;
+    font-size: 14px;
+}
+.type-N1{
+    margin-top: 3%;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.type-n1{
+    margin-left: 5%;
+    width: 20%;
+    font-size: 14px;
+    text-align: center;
+}
+.ad{
+    width: 100%;
+    height: 50%;
+}
+.ad-n{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+}
+
+.ad-n-left{
+    height:50px;
+    width: 60px;
+    background-image: url("../img/美食图片.jpg");
+    background-size: cover;
+    /*border-radius: 50%;*/
+    margin-left: 10px;
+}
+.ad-n-left-1{
+    height:50px;
+    width: 50px;
+    background-image: url("../img/春饼.jpg");
+    background-size: cover;
+    /*border-radius: 50%;*/
+    margin-left: 10px;
+}
+.ad-n-left-2{
+    height:50px;
+    width: 50px;
+    background-image: url("../img/排骨饭.jpg");
+    background-size: cover;
+    /*border-radius: 50%;*/
+    margin-left: 10px;
+}
+.ad-n-left-3{
+    height:50px;
+    width: 50px;
+    background-image: url("../img/紫菜包饭.jpg");
+    background-size: cover;
+    /*border-radius: 50%;*/
+    margin-left: 10px;
+}
+.ad-n-right{
+    height:50px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.ad-n-right-top{
+    height:30px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+}
+.ad-n-right-bottom{
+    height:20px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+}
+.ad-n-right-top-left{
+    height:29px;
+    flex:1;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.ad-n-right-top-right{
+    height:29px;
+    width:60px;
+    font-size: 11px;
+
+}
+.ad-n-right-bottom-left{
+    height:20px;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-left: 10px;
+    color: #8a8a8a;
+}
+.ad-n-right-bottom-left-img{
+    height: 10px;
+    width: 60px;
+    background-image: url(../img/五星.svg);
+    background-size: cover;
+    background-position: center;
+}
+.ad-n-right-bottom-right{
+    height:20px;
+    width:20px;
+    background: red;
+    border-radius: 50%;
+    color:white;
+    font-size: 12px;
+    margin-right: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}

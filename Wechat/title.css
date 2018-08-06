@@ -1,0 +1,6 @@
+#title{
+    height: 40px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+}

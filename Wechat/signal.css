@@ -1,0 +1,18 @@
+#signal{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#signal-left{
+    flex: 1;
+}
+#signal-center{
+    width: 50px;
+    height: 30px;
+}
+#signal-right{
+    flex: 1;
+}

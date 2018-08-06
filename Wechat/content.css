@@ -1,0 +1,6 @@
+#content{
+    height: 30px;
+    background-color: lawngreen;
+    display: flex;
+    flex: 1;
+}
